@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #64aaf0;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #0e58a1;
+}
+
+/* Grade dos Produtos */
+.conteudos {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+.produtos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Produtos */
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.img-produto {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#agu {
+    background-image: url(imgs/agu.jpg);
+}
+#ter {
+    background-image: url(imgs/ter.jpg);
+}
+#fog {
+    background-image: url(imgs/fog.jpg);
+}
+#arr {
+    background-image: url(imgs/arr.jpg);
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #20c000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.btn:hover {
+    background-color: #005a08;
+}
+h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    border-left: 5px solid #005a08;
+    padding-left: 7px;
+}
+.card p {
+    margin-bottom: 10px;
+
+}
+/* Rodapé */
+
+footer {
+    background-color: #7abdff;
+    color: #fff;
+    border-top: 2px solid #0e58a1;
+    text-align: center;
+    padding: 40px;
+}
